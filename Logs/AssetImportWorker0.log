@@ -1,0 +1,831 @@
+Unity Editor version:    2022.3.52f1 (1120fcb54228)
+Branch:                  2022.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 15.1.1 (Build 24B91)
+Darwin version:          24.1.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2022.3.52f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/adrianfadieiev/HomeWork/unity/Exame
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50168
+Successfully changed project path to: /Users/adrianfadieiev/HomeWork/unity/Exame
+/Users/adrianfadieiev/HomeWork/unity/Exame
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [140704319286080]  Target information:
+
+Player connection [140704319286080]  * "[IP] 192.168.68.108 [Port] 0 [Flags] 2 [Guid] 2873960425 [EditorId] 2873960425 [Version] 1048832 [Id] OSXEditor(0,MacBook-Pro-Adrian.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+
+Player connection [140704319286080] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [140704319286080] Host joined alternative multi-casting on [225.0.0.222:34997]...
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Refreshing native plugins compatible for Editor in 24.18 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.52f1 (1120fcb54228)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.52f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/adrianfadieiev/HomeWork/unity/Exame/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Color LCD preferred device: AMD Radeon Pro 5300M (high power)
+Metal devices available: 2
+0: AMD Radeon Pro 5300M (high power)
+1: Intel(R) UHD Graphics 630 (low power)
+Using device AMD Radeon Pro 5300M (high power)
+Initializing Metal device caps: AMD Radeon Pro 5300M
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.52f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.52f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2022.3.52f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56367
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.52f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.005381 seconds.
+- Loaded All Assemblies, in  0.592 seconds
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.398 seconds
+Domain Reload Profiling: 990ms
+	BeginReloadAssembly (201ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (57ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (78ms)
+	LoadAllAssembliesAndSetupDomain (240ms)
+		LoadAssemblies (202ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (236ms)
+			TypeCache.Refresh (233ms)
+				TypeCache.ScanAssembly (213ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (398ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (320ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (11ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (224ms)
+			ProcessInitializeOnLoadMethodAttributes (67ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.900 seconds
+Native extension for OSXStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.912 seconds
+Domain Reload Profiling: 1812ms
+	BeginReloadAssembly (188ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (54ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (51ms)
+	LoadAllAssembliesAndSetupDomain (591ms)
+		LoadAssemblies (424ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (267ms)
+			TypeCache.Refresh (235ms)
+				TypeCache.ScanAssembly (216ms)
+			ScanForSourceGeneratedMonoScriptInfo (20ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (913ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (699ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (69ms)
+			ProcessInitializeOnLoadAttributes (583ms)
+			ProcessInitializeOnLoadMethodAttributes (33ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launching external process: /Applications/Unity/Hub/Editor/2022.3.52f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.09 seconds
+Refreshing native plugins compatible for Editor in 1.25 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3094 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (50.5 KB). Loaded Objects now: 3579.
+Memory consumption went from 133.4 MB to 133.3 MB.
+Total: 4.601729 ms (FindLiveObjects: 0.380481 ms CreateObjectMapping: 0.412123 ms MarkObjects: 3.655166 ms  DeleteObjects: 0.152589 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1731.151265 seconds.
+  path: Assets/Rowlan/Terrain/Stamps/Examples/Brushes/Canyon 18.brush
+  artifactKey: Guid(1d13d5d391d551e4a892f390a057d498) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rowlan/Terrain/Stamps/Examples/Brushes/Canyon 18.brush using Guid(1d13d5d391d551e4a892f390a057d498) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '316009745b0f52ac30e543da745f097c') in 0.189277 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 69.912908 seconds.
+  path: Assets/Rust Key/Mesh/rust_key.FBX
+  artifactKey: Guid(0669f3d8f4b119f418a4bbe061cc198f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rust Key/Mesh/rust_key.FBX using Guid(0669f3d8f4b119f418a4bbe061cc198f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5c72eaaf64ce6ef022fb2860e53a7e20') in 0.595532 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 166.525531 seconds.
+  path: Assets/Rowlan
+  artifactKey: Guid(d31829d0f54b6457c990542488d3fd61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rowlan using Guid(d31829d0f54b6457c990542488d3fd61) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '577c23ddcc132f86c7f4b975928acae7') in 0.000699 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.128146 seconds.
+  path: Assets/Rowlan/Terrain
+  artifactKey: Guid(9df2562c0e90b4ccc8e6c939bf7248e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rowlan/Terrain using Guid(9df2562c0e90b4ccc8e6c939bf7248e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '79580e2a77896b64425c2c2f069de08b') in 0.000501 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.729353 seconds.
+  path: Assets/Rowlan/Terrain/Stamps
+  artifactKey: Guid(bc33e9327af5a4bf68d7ee452a6357c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rowlan/Terrain/Stamps using Guid(bc33e9327af5a4bf68d7ee452a6357c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '575c3810171fb5ae41267f152e980458') in 0.000420 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.650085 seconds.
+  path: Assets/Rowlan/Terrain/Stamps/Examples
+  artifactKey: Guid(6c0b9139ce2a1234e92f1c1e94a4a174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rowlan/Terrain/Stamps/Examples using Guid(6c0b9139ce2a1234e92f1c1e94a4a174) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f651d0921f4a48e397daa1732abbdc65') in 0.000500 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.252660 seconds.
+  path: Assets/Rowlan/Terrain/Stamps/Examples/Brushes
+  artifactKey: Guid(17406b0e078ea52498e6ee5c56b4322c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rowlan/Terrain/Stamps/Examples/Brushes using Guid(17406b0e078ea52498e6ee5c56b4322c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7247014f747a28a31775211ef26594ce') in 0.000455 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.079176 seconds.
+  path: Assets/Rowlan/Terrain/Stamps/Examples/Brushes/Alien World - Bobble 02.brush
+  artifactKey: Guid(8a120d76cbbc8d64d954a86bdb3fb697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rowlan/Terrain/Stamps/Examples/Brushes/Alien World - Bobble 02.brush using Guid(8a120d76cbbc8d64d954a86bdb3fb697) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'dd5488fe3d5f6cad0d72b93af73f658c') in 0.063901 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Rowlan/Terrain/Stamps/Examples/Brushes/Layered Rocks 15.brush
+  artifactKey: Guid(e20dbf7e6795c6a4493963e694b77360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rowlan/Terrain/Stamps/Examples/Brushes/Layered Rocks 15.brush using Guid(e20dbf7e6795c6a4493963e694b77360) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '21e6cea9622c69009da220a2bd3de5f9') in 0.066404 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Rowlan/Terrain/Stamps/Examples/Brushes/Dune Shapes 10.brush
+  artifactKey: Guid(95461c02b12b98d4c8f61ceac3318f1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rowlan/Terrain/Stamps/Examples/Brushes/Dune Shapes 10.brush using Guid(95461c02b12b98d4c8f61ceac3318f1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2dc0be6a2936c2aa0a817e01671ff30d') in 0.066253 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Rowlan/Terrain/Stamps/Examples/Brushes/Rugged Shapes 12.brush
+  artifactKey: Guid(ba6914fd3cd48a14a9a941d46733e513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rowlan/Terrain/Stamps/Examples/Brushes/Rugged Shapes 12.brush using Guid(ba6914fd3cd48a14a9a941d46733e513) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ce16168cdf3e511274c3dac8446caaa0') in 0.062899 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Rowlan/Terrain/Stamps/Examples/Brushes/Terraced Cliffs Drake.brush
+  artifactKey: Guid(050144b8e728e0746aa4ecaa75d517ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rowlan/Terrain/Stamps/Examples/Brushes/Terraced Cliffs Drake.brush using Guid(050144b8e728e0746aa4ecaa75d517ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd0af916d8d6732914d7132885be4dbed') in 0.064193 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Rowlan/Terrain/Stamps/Examples/Brushes/Rugged Rocks 02.brush
+  artifactKey: Guid(1c5e9b0de1229b444a53addd0fc3032d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rowlan/Terrain/Stamps/Examples/Brushes/Rugged Rocks 02.brush using Guid(1c5e9b0de1229b444a53addd0fc3032d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '163d539a39f50916fe062c4d079433e5') in 0.068801 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Rowlan/Terrain/Stamps/Examples/Brushes/Meadows 12.brush
+  artifactKey: Guid(40107fa807bc02b4ba519b34e067b50e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rowlan/Terrain/Stamps/Examples/Brushes/Meadows 12.brush using Guid(40107fa807bc02b4ba519b34e067b50e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '562f6a191eac21d13e20c51ebb1063fe') in 0.092679 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Rowlan/Terrain/Stamps/Examples/Brushes/Islands Volcano 02.brush
+  artifactKey: Guid(c9fe75c5d519c6640ac905a5f32ab53a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rowlan/Terrain/Stamps/Examples/Brushes/Islands Volcano 02.brush using Guid(c9fe75c5d519c6640ac905a5f32ab53a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '91dbd13fa8dad0567a72bf0df05107c9') in 0.103626 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/Rowlan/Terrain/Stamps/Examples/Brushes/Valleys 01.brush
+  artifactKey: Guid(c7168a893d7b1544199c3a58b8c6abbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rowlan/Terrain/Stamps/Examples/Brushes/Valleys 01.brush using Guid(c7168a893d7b1544199c3a58b8c6abbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '45725a032b6bed2dc605d3caeb1d2773') in 0.149721 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Rowlan/Terrain/Stamps/Examples/Brushes/Moon 18.brush
+  artifactKey: Guid(859b5f2d66921c641a1f6652b83b4f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rowlan/Terrain/Stamps/Examples/Brushes/Moon 18.brush using Guid(859b5f2d66921c641a1f6652b83b4f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '332c4f8ad8a761a680c18c533a88a7dd') in 0.122905 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Rowlan/Terrain/Stamps/Examples/Brushes/Rugged Rocks 14.brush
+  artifactKey: Guid(8c5671a9bcc09fe4d811b85a7768708f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rowlan/Terrain/Stamps/Examples/Brushes/Rugged Rocks 14.brush using Guid(8c5671a9bcc09fe4d811b85a7768708f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6de2e4c3fc30f3d7b3cd01a72992a797') in 0.095793 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/Rowlan/Terrain/Stamps/Examples/Brushes/Terrace Fields 15.brush
+  artifactKey: Guid(8b6d379bd0597064ea2c48acf84e8464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rowlan/Terrain/Stamps/Examples/Brushes/Terrace Fields 15.brush using Guid(8b6d379bd0597064ea2c48acf84e8464) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8fa3c586cbc88120feee97cca42c7b31') in 0.144476 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Rowlan/Terrain/Stamps/Examples/Brushes/Terraced Cliffs 01.brush
+  artifactKey: Guid(77a153c3b8d2e674aa1cbae8c4b52a26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rowlan/Terrain/Stamps/Examples/Brushes/Terraced Cliffs 01.brush using Guid(77a153c3b8d2e674aa1cbae8c4b52a26) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd8e48d90d2ee3d81c1cb7de73342cfd4') in 0.112713 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Rowlan/Terrain/Stamps/Examples/Brushes/Dunes 04.brush
+  artifactKey: Guid(97457b6e397adef45b059a05b8d33729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rowlan/Terrain/Stamps/Examples/Brushes/Dunes 04.brush using Guid(97457b6e397adef45b059a05b8d33729) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e2e0c7747dc7698e6170625d18c4affa') in 0.082803 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Rowlan/Terrain/Stamps/Examples/Brushes/Jungle Rivers 03.brush
+  artifactKey: Guid(d23ab4e2e92544d4fb42c846c60486d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rowlan/Terrain/Stamps/Examples/Brushes/Jungle Rivers 03.brush using Guid(d23ab4e2e92544d4fb42c846c60486d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '43644907ff41517d7dd3e9755a86a5cc') in 0.062832 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Rowlan/Terrain/Stamps/Examples/Brushes/Rugged Rocks 51.brush
+  artifactKey: Guid(3f5cda8247c63d443a81581a3c512053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rowlan/Terrain/Stamps/Examples/Brushes/Rugged Rocks 51.brush using Guid(3f5cda8247c63d443a81581a3c512053) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'cf385a28a7a7ed737e65494e96d90034') in 0.068845 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/Rowlan/Terrain/Stamps/Examples/Brushes/Stranger Lands 02.brush
+  artifactKey: Guid(2735806c52b40fc40bc14bb7e0587a5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rowlan/Terrain/Stamps/Examples/Brushes/Stranger Lands 02.brush using Guid(2735806c52b40fc40bc14bb7e0587a5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '78e880e3f720fd9d4bacc24531036482') in 0.071884 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Rowlan/Terrain/Stamps/Examples/Brushes/Craters 01.brush
+  artifactKey: Guid(5c496415f82768f4d849ca039a940718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rowlan/Terrain/Stamps/Examples/Brushes/Craters 01.brush using Guid(5c496415f82768f4d849ca039a940718) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6bc17d941300e2cf1de54a14fb9045c5') in 0.082235 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Rowlan/Terrain/Stamps/Examples/Brushes/Islands 23.brush
+  artifactKey: Guid(472df1d235f68bf458f026d8b0af8d4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rowlan/Terrain/Stamps/Examples/Brushes/Islands 23.brush using Guid(472df1d235f68bf458f026d8b0af8d4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '18b574f1d4503912529a5139c60c22f8') in 0.074085 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/Rowlan/Terrain/Stamps/Examples/Brushes/Meadows 28.brush
+  artifactKey: Guid(904d3392a44f3e147bed897e766894a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rowlan/Terrain/Stamps/Examples/Brushes/Meadows 28.brush using Guid(904d3392a44f3e147bed897e766894a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f3aeff4cdcb217dc384f0f98dd73708a') in 0.240759 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/Rowlan/Terrain/Stamps/Examples/Brushes/Islands 07.brush
+  artifactKey: Guid(a67a7cf986f221948a72ff804fa8b304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rowlan/Terrain/Stamps/Examples/Brushes/Islands 07.brush using Guid(a67a7cf986f221948a72ff804fa8b304) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '44bef13129316d007329d0a0277358db') in 0.134596 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/Rowlan/Terrain/Stamps/Examples/Brushes/Plateau Lanes 03.brush
+  artifactKey: Guid(e9531de9da45e1f49ad6e188cd0ee582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rowlan/Terrain/Stamps/Examples/Brushes/Plateau Lanes 03.brush using Guid(e9531de9da45e1f49ad6e188cd0ee582) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '071c5e7446a6ae81e3ce6abeb2ebf1e9') in 0.124763 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/Rowlan/Terrain/Stamps/Examples/Brushes/Rugged Rocks 20.brush
+  artifactKey: Guid(a7b6584a62a54894997907c15a23fcb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rowlan/Terrain/Stamps/Examples/Brushes/Rugged Rocks 20.brush using Guid(a7b6584a62a54894997907c15a23fcb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c53c462fdca68a2192d039ac61beed57') in 0.160081 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/Rowlan/Terrain/Stamps/Examples/Brushes/Sandy Beaches 05.brush
+  artifactKey: Guid(4393576625d80c64ea463a521afb12d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rowlan/Terrain/Stamps/Examples/Brushes/Sandy Beaches 05.brush using Guid(4393576625d80c64ea463a521afb12d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd5695195e5c5b072f2671228fce3192c') in 0.090874 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/Rowlan/Terrain/Stamps/Examples/Brushes/Steep Rocky Cliffs 14.brush
+  artifactKey: Guid(c5140de07e833b544b140e6782ba1559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rowlan/Terrain/Stamps/Examples/Brushes/Steep Rocky Cliffs 14.brush using Guid(c5140de07e833b544b140e6782ba1559) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b07398f031cfe9b3061e74918a39941e') in 0.090630 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Rowlan/Terrain/Stamps/Examples/Brushes/Tundra 01.brush
+  artifactKey: Guid(61b7eaa7e526f4c4bb5309986213aa20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rowlan/Terrain/Stamps/Examples/Brushes/Tundra 01.brush using Guid(61b7eaa7e526f4c4bb5309986213aa20) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'dcb40fce9ae4d98a6a5f2e0f4f55a941') in 0.089598 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/Rowlan/Terrain/Stamps/Examples/Brushes/Pride Rocks 11.brush
+  artifactKey: Guid(9484af893c34ba94e96f55a652e0188a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rowlan/Terrain/Stamps/Examples/Brushes/Pride Rocks 11.brush using Guid(9484af893c34ba94e96f55a652e0188a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '72fa7834b17482660d7f18b06ab7e7d0') in 0.082488 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.311585 seconds.
+  path: Assets/Rowlan/Terrain/Stamps/Examples/Heightmaps
+  artifactKey: Guid(8069b83ba1cbdfa4eacdcbce6a313c6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rowlan/Terrain/Stamps/Examples/Heightmaps using Guid(8069b83ba1cbdfa4eacdcbce6a313c6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ad7bbaca9d97c2248e853167b051e0d6') in 0.000479 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.075082 seconds.
+  path: Assets/Rowlan/Terrain/Stamps/Examples/Heightmaps/Alien World - Bobble 02.png
+  artifactKey: Guid(b91b5c904c6810c43b3d2a90abd8959f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rowlan/Terrain/Stamps/Examples/Heightmaps/Alien World - Bobble 02.png using Guid(b91b5c904c6810c43b3d2a90abd8959f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7a7277fc2f38666620b4bb794b360cbf') in 0.097925 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Rowlan/Terrain/Stamps/Examples/Heightmaps/Massive Blocks 02.png
+  artifactKey: Guid(e3b50f981dd699748b06df76c3c60eaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rowlan/Terrain/Stamps/Examples/Heightmaps/Massive Blocks 02.png using Guid(e3b50f981dd699748b06df76c3c60eaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7e89afb80c126e62844d70f528c86fa6') in 0.058739 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Rowlan/Terrain/Stamps/Examples/Heightmaps/Canyon 18.png
+  artifactKey: Guid(83d30fd551f55d5499d0a6f363ceed79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rowlan/Terrain/Stamps/Examples/Heightmaps/Canyon 18.png using Guid(83d30fd551f55d5499d0a6f363ceed79) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '01e094e3540692772092ad2bc6fa64bb') in 0.067157 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Rowlan/Terrain/Stamps/Examples/Heightmaps/Alien World - Voronian 03.png
+  artifactKey: Guid(86c55d25ff19f134bbbc6e97caa26677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rowlan/Terrain/Stamps/Examples/Heightmaps/Alien World - Voronian 03.png using Guid(86c55d25ff19f134bbbc6e97caa26677) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8373df72dac65b253d61f83f2b33cb1b') in 0.056528 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Rowlan/Terrain/Stamps/Examples/Heightmaps/Dunes 11.png
+  artifactKey: Guid(f1a7a943f31cdb742aa8615d575c89ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rowlan/Terrain/Stamps/Examples/Heightmaps/Dunes 11.png using Guid(f1a7a943f31cdb742aa8615d575c89ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3b38ae8928b5b69e0a362afedb6e8f50') in 0.061019 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Rowlan/Terrain/Stamps/Examples/Heightmaps/Dunes 06.png
+  artifactKey: Guid(f13998221befc2f49ba429248cbadaea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rowlan/Terrain/Stamps/Examples/Heightmaps/Dunes 06.png using Guid(f13998221befc2f49ba429248cbadaea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3f595076871ab8785d851176c6fc50b5') in 0.081235 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/Rowlan/Terrain/Stamps/Examples/Heightmaps/Rugged Rocks 02.png
+  artifactKey: Guid(e175b355d078a0343a0e100c00c7df64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rowlan/Terrain/Stamps/Examples/Heightmaps/Rugged Rocks 02.png using Guid(e175b355d078a0343a0e100c00c7df64) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '637a5dfcca21ad8f24d051ee74f097f6') in 0.096010 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Rowlan/Terrain/Stamps/Examples/Heightmaps/Canyon Shapes 03.png
+  artifactKey: Guid(270d68bc485a7df4ca25a44b7678bf6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rowlan/Terrain/Stamps/Examples/Heightmaps/Canyon Shapes 03.png using Guid(270d68bc485a7df4ca25a44b7678bf6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '89fc81954dad09014db82f8941fbb2c6') in 0.096781 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Rowlan/Terrain/Stamps/Examples/Heightmaps/Dover Cliffs 15.png
+  artifactKey: Guid(f888c3978bcda6f4692dab814d80a76c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rowlan/Terrain/Stamps/Examples/Heightmaps/Dover Cliffs 15.png using Guid(f888c3978bcda6f4692dab814d80a76c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '94b51ca7ea7c40f6eebf3c37803e6092') in 0.099691 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Rowlan/Terrain/Stamps/Examples/Heightmaps/Jungle Rivers 03.png
+  artifactKey: Guid(b421431134f0b444fbdba7455c9b5d5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rowlan/Terrain/Stamps/Examples/Heightmaps/Jungle Rivers 03.png using Guid(b421431134f0b444fbdba7455c9b5d5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b4accab5c809e87f22c63f3ad0bef1ff') in 0.117600 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/Rowlan/Terrain/Stamps/Examples/Heightmaps/Rugged Sedimented Rocks 24.png
+  artifactKey: Guid(30562f4afbd3dcf4a954cd42314b9e03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rowlan/Terrain/Stamps/Examples/Heightmaps/Rugged Sedimented Rocks 24.png using Guid(30562f4afbd3dcf4a954cd42314b9e03) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b55cb6e0ca0f737072d3865216cb6b58') in 0.065999 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Rowlan/Terrain/Stamps/Examples/Heightmaps/Monument Desert 02.png
+  artifactKey: Guid(6d1d4846c767da245b2e3c5516d16817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rowlan/Terrain/Stamps/Examples/Heightmaps/Monument Desert 02.png using Guid(6d1d4846c767da245b2e3c5516d16817) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0823ab2654971156f3a5a317c4af87b2') in 0.074867 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Rowlan/Terrain/Stamps/Examples/Heightmaps/Volcano 20.png
+  artifactKey: Guid(83fc9147432a7114fad8b3fa40f89cb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rowlan/Terrain/Stamps/Examples/Heightmaps/Volcano 20.png using Guid(83fc9147432a7114fad8b3fa40f89cb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6a778bd69f9b8c4301caa298152c0f55') in 0.069391 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Rowlan/Terrain/Stamps/Examples/Heightmaps/Meadows 12.png
+  artifactKey: Guid(978e831b618cd4045bddaeb7534621b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rowlan/Terrain/Stamps/Examples/Heightmaps/Meadows 12.png using Guid(978e831b618cd4045bddaeb7534621b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ac6d7f8c3814a7f0b760aba64dafd2d6') in 0.064758 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/Rowlan/Terrain/Stamps/Examples/Heightmaps/Pride Rocks 11.png
+  artifactKey: Guid(9b925a5928fb7424aa019d0859fa1130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rowlan/Terrain/Stamps/Examples/Heightmaps/Pride Rocks 11.png using Guid(9b925a5928fb7424aa019d0859fa1130) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'cc03c3429ffba0ebcde42aa5647c61a9') in 0.065574 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/Rowlan/Terrain/Stamps/Examples/Heightmaps/Craters 01.png
+  artifactKey: Guid(d12bc82025ce7d442b46c9eb48a73da6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rowlan/Terrain/Stamps/Examples/Heightmaps/Craters 01.png using Guid(d12bc82025ce7d442b46c9eb48a73da6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1fd5cbe632b75a0fc823a32ca87c4c44') in 0.065681 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/Rowlan/Terrain/Stamps/Examples/Heightmaps/Rock Shapes 10.png
+  artifactKey: Guid(ec1cd954faa52e44e910221cd07de5ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rowlan/Terrain/Stamps/Examples/Heightmaps/Rock Shapes 10.png using Guid(ec1cd954faa52e44e910221cd07de5ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f80b4546b701a95e669746b94628a89b') in 0.061586 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/Rowlan/Terrain/Stamps/Examples/Heightmaps/Dunes 04.png
+  artifactKey: Guid(06c49888074ce724cbd3e41d516160dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rowlan/Terrain/Stamps/Examples/Heightmaps/Dunes 04.png using Guid(06c49888074ce724cbd3e41d516160dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7203cdb6f2c49144400e1f1169ff0fa6') in 0.061403 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Rowlan/Terrain/Stamps/Examples/Heightmaps/Moon 09.png
+  artifactKey: Guid(ad97ed110e8ce4d4a99e111160a98921) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rowlan/Terrain/Stamps/Examples/Heightmaps/Moon 09.png using Guid(ad97ed110e8ce4d4a99e111160a98921) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '81feefd20bd1a798e46978d0353c534a') in 0.067540 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Rowlan/Terrain/Stamps/Examples/Heightmaps/Islands 07.png
+  artifactKey: Guid(45acdefb4290ecd4997fc7a68022d4ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rowlan/Terrain/Stamps/Examples/Heightmaps/Islands 07.png using Guid(45acdefb4290ecd4997fc7a68022d4ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '354153deb16b18e1f541442cca79aaa9') in 0.064533 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Rowlan/Terrain/Stamps/Examples/Heightmaps/Seaside Cliffs 06.png
+  artifactKey: Guid(3077333f957bf2d479d6a9b09900113c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rowlan/Terrain/Stamps/Examples/Heightmaps/Seaside Cliffs 06.png using Guid(3077333f957bf2d479d6a9b09900113c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b5478ffa4363c82564d9c1e3cc85292a') in 0.072171 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Rowlan/Terrain/Stamps/Examples/Heightmaps/Islands 23.png
+  artifactKey: Guid(c565ae35649b9194a9ac0d1da02f775d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rowlan/Terrain/Stamps/Examples/Heightmaps/Islands 23.png using Guid(c565ae35649b9194a9ac0d1da02f775d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c95469d3544ef5ce2d2a5ac06b0716c8') in 0.064621 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/Rowlan/Terrain/Stamps/Examples/Heightmaps/Meadows 04.png
+  artifactKey: Guid(96878aa10a2287141b927c7304923f87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rowlan/Terrain/Stamps/Examples/Heightmaps/Meadows 04.png using Guid(96878aa10a2287141b927c7304923f87) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8710bcee61429fefe455a2d8b2f00eeb') in 0.073177 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Rowlan/Terrain/Stamps/Examples/Heightmaps/Stranger Lands 02.png
+  artifactKey: Guid(75d6f141ccee0074ba2e5c97553bef91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rowlan/Terrain/Stamps/Examples/Heightmaps/Stranger Lands 02.png using Guid(75d6f141ccee0074ba2e5c97553bef91) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ff721bbe3ea0a41aeb8d073ec2ac4fd4') in 0.071865 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Rowlan/Terrain/Stamps/Examples/Heightmaps/Islands Volcano 02.png
+  artifactKey: Guid(e6bc89877a242fb4490f4bdede16bf7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rowlan/Terrain/Stamps/Examples/Heightmaps/Islands Volcano 02.png using Guid(e6bc89877a242fb4490f4bdede16bf7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '16cbbe2e6cdc41a692873497ef751c51') in 0.067040 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/Rowlan/Terrain/Stamps/Examples/Heightmaps/Stranger Lands 06.png
+  artifactKey: Guid(949265e8b28bd6e48af4e592d907f926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rowlan/Terrain/Stamps/Examples/Heightmaps/Stranger Lands 06.png using Guid(949265e8b28bd6e48af4e592d907f926) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ea9cb1a82f4ee45a311f9245de633297') in 0.071254 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Rowlan/Terrain/Stamps/Examples/Heightmaps/Steep Rocky Cliffs 14.png
+  artifactKey: Guid(f39aed14789cb94428488f5ff6e56ccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rowlan/Terrain/Stamps/Examples/Heightmaps/Steep Rocky Cliffs 14.png using Guid(f39aed14789cb94428488f5ff6e56ccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ac517ffdb1d71645d57290f71e0988b5') in 0.064719 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Rowlan/Terrain/Stamps/Examples/Heightmaps/Layered Rocks 09.png
+  artifactKey: Guid(53b34fd1777f2ac448e341a5202bec0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rowlan/Terrain/Stamps/Examples/Heightmaps/Layered Rocks 09.png using Guid(53b34fd1777f2ac448e341a5202bec0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a202cba5bd4c9db51842dc21195fc698') in 0.068047 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/Rowlan/Terrain/Stamps/Examples/Heightmaps/Seaside Cliffs 02.png
+  artifactKey: Guid(c239f3705194a2243a87730d3875c03d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rowlan/Terrain/Stamps/Examples/Heightmaps/Seaside Cliffs 02.png using Guid(c239f3705194a2243a87730d3875c03d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4b69932fed1c709f5d85e34f42442d96') in 0.084347 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/Rowlan/Terrain/Stamps/Examples/Heightmaps/Tundra 11.png
+  artifactKey: Guid(fe173e2be30e3a442b023684c0ec7124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rowlan/Terrain/Stamps/Examples/Heightmaps/Tundra 11.png using Guid(fe173e2be30e3a442b023684c0ec7124) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b9f9c99d12aecb1f6a41293efa09c893') in 0.063151 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Rowlan/Terrain/Stamps/Examples/Heightmaps/Rugged Shapes 12.png
+  artifactKey: Guid(a8ef5130c92ad5441be988178f1c3093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rowlan/Terrain/Stamps/Examples/Heightmaps/Rugged Shapes 12.png using Guid(a8ef5130c92ad5441be988178f1c3093) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4828f79af1e36a45dfc21b43776cd555') in 0.066870 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/Rowlan/Terrain/Stamps/Examples/Heightmaps/Rugged Rocks 20.png
+  artifactKey: Guid(c89af6e2cbc10b544a4ab681596ed796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rowlan/Terrain/Stamps/Examples/Heightmaps/Rugged Rocks 20.png using Guid(c89af6e2cbc10b544a4ab681596ed796) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd5932cf2f0ca72ac66a519ae39ef98ed') in 0.069824 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 89, details: Operation aborted.
+AssetImportWorker is now disconnected from the server
+Process exiting
